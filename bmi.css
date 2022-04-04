@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/10/21/28/accounting-761599_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+div{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.5);
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    box-shadow: 2px 2px 20px #919191;
+}
+
+#result{
+    color: white;
+}
+
+#btn{
+    width: 160px;
+    height: 30px;
+    font-size: inherit;
+    margin-top: 10px;
+    border: none;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    box-shadow: 1px 1px 10px #B8FF3C;
+}
